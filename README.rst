@@ -1,26 +1,9 @@
 Welcome to django-allauth-2fa!
 ==============================
-
-.. image:: https://github.com/valohai/django-allauth-2fa/actions/workflows/ci.yml/badge.svg
-    :target: https://github.com/valohai/django-allauth-2fa/actions/workflows/ci.yml
-
-.. image:: https://codecov.io/gh/valohai/django-allauth-2fa/branch/main/graph/badge.svg
-    :target: https://codecov.io/gh/valohai/django-allauth-2fa
-
-.. image:: https://readthedocs.org/projects/django-allauth-2fa/badge/?version=latest
-    :target: https://django-allauth-2fa.readthedocs.io/
-
-django-allauth-2fa adds `two-factor authentication`_ to `django-allauth`_.
-django-allauth is a set of `Django`_ applications which help with
-authentication, registration, and other account management tasks.
-
-Source code
-    http://github.com/percipient/django-allauth-2fa
 Documentation
     https://django-allauth-2fa.readthedocs.io/
 
 .. _two-factor authentication: https://en.wikipedia.org/wiki/Multi-factor_authentication
-.. _django-allauth: https://github.com/pennersr/django-allauth
 .. _Django: https://www.djangoproject.com/
 
 Features
@@ -88,8 +71,3 @@ The test project can also be used as a minimal example using the following:
     DJANGO_SETTINGS_MODULE=tests.settings python manage.py runserver_plus
     # Run the shell.
     DJANGO_SETTINGS_MODULE=tests.settings python manage.py shell_plus
-
-.. _Víðir Valberg Guðmundsson (@valberg): https://github.com/valberg
-.. _Percipient Networks: https://www.strongarm.io
-.. _Valohai: https://valohai.com/
-.. _the repository: http://github.com/valohai/django-allauth-2fa
